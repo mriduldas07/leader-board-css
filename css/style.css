@@ -1,7 +1,54 @@
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* body style  */
+body{
+    margin: 0;
+}
+
+/* header style  */
+
+header{
+    background: #562EFF;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-name{
+    display: flex;
+    position: relative;
+    left: 254px;
+}
+.brand-name{
+    padding-left: 16px;
+}
+.logo img{
+    width: 40px;
+    height: 51px;
+    padding-top: 26px;
+    padding-bottom: 17px;
+}
+.header-pagebar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    right: 289px;
+}
+.header-pagebar h3{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 36px;
+}
+.header-pagebar img{
+    padding-top: 23px;
+    padding-bottom: 20px;
+    margin-left: 36px;
+}
+
+
 /* common style or utilitis */
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -18,6 +65,9 @@ main{
     padding: 30px 30px;
     margin-top: 21px;
     border-radius: 5px;
+}
+.bottom-margin{
+    margin-bottom: 21px;
 }
 
 /* top players style  */
